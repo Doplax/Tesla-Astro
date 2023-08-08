@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 //import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Tesla Motors">
 	<main>
 		<header 
 			class="py-6 px-10 flex items-center fixed top-0 w-full justify-between z-40 text-white"
@@ -35,14 +35,23 @@ import Layout from '../layouts/Layout.astro';
 			</nav>
 		</header>
 		
-		<section class="bg-black h-screen w-screen text-center relative overflow-hidden">
-			<h2>Disfrute de Tesla</h2>
-			<p> Programe una prueba de conducción hoy mismo</p>
-			<a>
-				Prueba de conducción
-			</a>
-			<div class="absolute top-0 bottom-0 h-full">
-				<video autoplay muted loop src="/public/video.webm"></video>
+		<section class="h-screen w-screen text-center overflow-hidden relative">
+			<div class="z-30 relative h-full flex flex-col">
+				<header class=" flex flex-col">
+					<h2 class="text-white pt-40 text-[40px] font-medium">Disfrute de Tesla</h2>
+					<p class="text-white text-sm"> Programe una prueba de conducción hoy mismo</p>
+				</header>
+				
+				<footer class="flex flex-col flex-grow justify-end pb-20">
+					<a class="border-[3px] border-white bg-white/5 backdrop-blur-xl text-sm rounded font-medium text-white mx-12 py-2 inline-block hover:bg-white hover:text-black transition-colors duration">
+						Prueba de conducción
+					</a>
+				</footer>
+			</div>
+
+
+			<div class="absolute top-0 bottom-0 h-full w-full z-10">
+				<video class="object-center object-cover h-full w-full" autoplay muted loop src="/public/video.webm"></video>
 			</div>
 		</section>
 	</main>

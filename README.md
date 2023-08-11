@@ -1,54 +1,16 @@
-# Astro Starter Kit: Basics
+## [Live Web](https://tesla-astro.netlify.app/)
 
-```
-npm create astro@latest -- --template basics
-```
+![Cover de la página](./public/cover.jpg)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+### Project Showcase 🚀: Tesla Landing Page Clone
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Thrilled to share my recent project, inspired by the sleek design of the Tesla website. With guidance from @Midudev, I've mastered crafting a landing page using the cutting-edge #AstroFramework. 🌌
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+But that's not all! 🌟 I've also implemented a smooth slider solely with #TailwindCSS, utilizing the snap mandatory property. What's even cooler? Mastering the CSS currentColor variable to dynamically alter the header text color based on the section it's hovering over. A true blend of aesthetics and functionality!
 
-## 🚀 Project Structure
+Eager to dive deeper into the tech world and create more of such engaging designs. Let's connect and innovate! 🔗🌐
 
-Inside of your Astro project, you'll see the following folders and files:
+#WebDevelopment #TeslaClone #FrontEndDevelopment #WebDesign #CodingJourney
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+(Note: Always ensure to give credit when using someone else's work as a base or inspiration. If the mentioned @Midudev provided resources or tutorials, it's respectful and professional to acknowledge them.)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

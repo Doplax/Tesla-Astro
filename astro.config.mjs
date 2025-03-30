@@ -7,6 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://astro.build/config
 export default defineConfig({
+  base: "./Tesla-Astro",
   integrations: [tailwind()],
   vite: {
     resolve: {

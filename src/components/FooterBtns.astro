@@ -2,26 +2,18 @@
 const { text1, text2 } = Astro.props;
 ---
 <footer class="flex flex-col flex-grow justify-end pb-20 ">
-	<!--<div class="flex flex-row justify-center gap-x-6">
-		<a class="flex justify-center  border-[3px] w-[300px] border-white bg-white/5 backdrop-blur-xl text-sm rounded font-medium text-white  py-2  hover:bg-white hover:text-black transition-colors duration-500">
-			{text1}
-		</a>
-		<a class="flex justify-center  border-[3px] w-[300px] border-white bg-white/5 backdrop-blur-xl text-sm rounded font-medium text-white  py-2  hover:bg-white hover:text-black transition-colors duration-500">
-			{text2}
-		</a>
-	</div>-->
-	  <div  class="gap-x-2 flex px-2">
+  <div  class="gap-x-2 flex justify-center px-2">
     <a
       class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500"
       href="#"
     >
-      {text1}</a
-    >
+      {text1}
+    </a>
     <a
       class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black"
       href="#"
     >
-      {text2}</a
-    >
+      {text2}
+    </a>
   </div>
 </footer>

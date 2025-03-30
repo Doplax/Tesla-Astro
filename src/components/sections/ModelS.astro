@@ -1,0 +1,27 @@
+---
+import Section from "./Section.astro";
+import Footer from "../FooterBtns.astro";
+---
+
+<Section
+  title="Model S"
+  subtitle="Programe una consulta virtual"
+  color="black"
+  id="model-s"
+>
+  <Footer
+    slot="footer"
+    text1="Explorar inventario"
+    text2="Pedido personalizado"
+  >
+  </Footer>
+
+  <img
+    slot="background"
+    alt="Model S"
+    class="h-full w-full object-cover object-center"
+    src="model-s.webp"
+    id="bg-image-models"
+  />
+</Section>
+

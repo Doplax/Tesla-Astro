@@ -1,0 +1,27 @@
+---
+import Section from "@components/sections/Section.astro";
+import Footer from "../FooterBtns.astro";
+---
+
+<Section
+  title="Model 3"
+  subtitle="Concertar una prueba de conducción"
+  color="black"
+  id="model-3"
+>
+  <Footer
+    slot="footer"
+    text1="Explorar inventario"
+    text2="Pedido personalizado"
+  >
+  </Footer>
+
+  <img
+    slot="background"
+    alt="Model 3"
+    class="h-full w-full object-cover object-center"
+    src="model-3.webp"
+    id="bg-image-model3"
+  />
+</Section>
+

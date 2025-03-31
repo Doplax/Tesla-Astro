@@ -7,14 +7,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://astro.build/config
 export default defineConfig({
-  base: "./Tesla-Astro",
+  base: "/",
   integrations: [tailwind()],
   vite: {
     resolve: {
       alias: {
-        '@components': path.resolve(__dirname, './src/components'),
-        '@layouts': path.resolve(__dirname, './src/layouts'),
-        '@pages': path.resolve(__dirname, './src/pages')
+        '@components': path.resolve(__dirname, 'src/components'),
+        '@layouts': path.resolve(__dirname, 'src/layouts'),
+        '@pages': path.resolve(__dirname, 'src/pages')
       }
     }
   }
